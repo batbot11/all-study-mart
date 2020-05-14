@@ -4,6 +4,7 @@ import Basename from './utils/Basename';
 
 import HomePage from './containers/homePage/HomePage';
 
+// Courses
 import GGSIPUBBA from './components/notesTable/ipu/bba/IPU_BBA';
 import IPU_BCOM from './components/notesTable/ipu/bcom/IPU_BCOM';
 import IPU_MBA from './components/notesTable/ipu/mba/IPU_MBA';
@@ -16,6 +17,8 @@ import CCSU_BCA from './components/notesTable/ccsu/bca/CCSU_BCA';
 import DU_BCOM from './components/notesTable/du/bcom/DU_BCOM';
 import DU_BCOM_HONS from './components/notesTable/du/bcomHons/DU_BCOM_HONS';
 
+// Subjects
+import IPU_BBA_FM from './components/units/IPU_BBA_FM/IPU_BBA_FM';
 
 function App() {
   return (
@@ -23,6 +26,7 @@ function App() {
       <BrowserRouter basename ={Basename} >
         <Route path="/" exact component={HomePage} />
 
+        {/* Courses Routes */}
         <Route exact path="/ggsipu/bba" component={GGSIPUBBA} />
         <Route exact path="/ggsipu/bcom" component={IPU_BCOM} />
         <Route exact path="/ggsipu/mba" component={IPU_MBA} />
@@ -34,6 +38,9 @@ function App() {
 
         <Route exact path="/du/bcom" component={DU_BCOM} />
         <Route exact path="/du/bcom-hons" component={DU_BCOM_HONS} />
+
+        {/* Subjects Routes */}
+        <Route exact path="/ggsipu/bba/fm" component={IPU_BBA_FM} />
       </BrowserRouter>
     </div>
   );

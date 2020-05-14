@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/all-study-mart/static/css/main.faca4cf8.chunk.css",
+    "main.js": "/all-study-mart/static/js/main.3fd3477e.chunk.js",
+    "main.js.map": "/all-study-mart/static/js/main.3fd3477e.chunk.js.map",
+    "runtime-main.js": "/all-study-mart/static/js/runtime-main.f056c5ec.js",
+    "runtime-main.js.map": "/all-study-mart/static/js/runtime-main.f056c5ec.js.map",
+    "static/js/2.f8b40ac0.chunk.js": "/all-study-mart/static/js/2.f8b40ac0.chunk.js",
+    "static/js/2.f8b40ac0.chunk.js.map": "/all-study-mart/static/js/2.f8b40ac0.chunk.js.map",
+    "index.html": "/all-study-mart/index.html",
+    "precache-manifest.5af60e07d876ca596a67116f71ac9a14.js": "/all-study-mart/precache-manifest.5af60e07d876ca596a67116f71ac9a14.js",
+    "service-worker.js": "/all-study-mart/service-worker.js",
+    "static/css/main.faca4cf8.chunk.css.map": "/all-study-mart/static/css/main.faca4cf8.chunk.css.map",
+    "static/js/2.f8b40ac0.chunk.js.LICENSE.txt": "/all-study-mart/static/js/2.f8b40ac0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f056c5ec.js",
+    "static/js/2.f8b40ac0.chunk.js",
+    "static/css/main.faca4cf8.chunk.css",
+    "static/js/main.3fd3477e.chunk.js"
+  ]
+}

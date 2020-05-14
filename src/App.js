@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
+import Basename from './utils/Basename';
 
 import HomePage from './containers/homePage/HomePage';
 
@@ -19,7 +20,7 @@ import DU_BCOM_HONS from './components/notesTable/du/bcomHons/DU_BCOM_HONS';
 function App() {
   return (
     <div style={{position: 'absolute', left: 0, width: '100%'}} >
-      <BrowserRouter basename ="/all-study-mart/" >
+      <BrowserRouter basename ={Basename} >
         <Route path="/" exact component={HomePage} />
 
         <Route exact path="/ggsipu/bba" component={GGSIPUBBA} />

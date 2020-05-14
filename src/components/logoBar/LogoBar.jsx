@@ -1,10 +1,11 @@
 import React from "react";
+import Basename from '../../utils/Basename';
 import "./LogoBar.css";
 
 const LogoBar = () => {
   return (
     <div className="logobar__container">
-      <img src="/images/Logo.jpeg" className="logobar__logo" alt="Logo" />
+      <img src={`${Basename}images/Logo.jpeg`} className="logobar__logo" alt="Logo" />
       <div className="logobar__name--container">
         <span className="logobar__heading--main">All Study Mart</span>
         <span className="logobar__heading--sub">
@@ -13,28 +14,28 @@ const LogoBar = () => {
       </div>
       <div className="logobar__social--container">
         <img
-          src="/images/facebook.png"
+          src={`${Basename}images/facebook.png`}
           className="logobar__social--img"
           alt=""
         />
         <img
-          src="/images/whatsapp.png"
+          src={`${Basename}images/whatsapp.png`}
           className="logobar__social--img"
           alt=""
         />
         <img
-          src="/images/linkedin.png"
+          src={`${Basename}images/linkedin.png`}
           className="logobar__social--img"
           alt=""
         />
-        <img src="/images/twitter.png" className="logobar__social--img" alt="" />
+        <img src={`${Basename}images/twitter.png`} className="logobar__social--img" alt="" />
         <img
-          src="/images/telegram.png"
+          src={`${Basename}images/telegram.png`}
           className="logobar__social--img"
           alt=""
         />
         <img
-          src="/images/instagram.png"
+          src={`${Basename}images/instagram.png`}
           className="logobar__social--img"
           alt=""
         />

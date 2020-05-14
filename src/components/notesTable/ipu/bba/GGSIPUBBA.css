@@ -1,0 +1,21 @@
+.ipubba__heading {
+  font-size: 32px;
+  text-align: center;
+  display: block;
+}
+
+.ipubba__sem {
+  color: orange;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+}
+
+.ipubba__sem--sup {
+  margin-right: 10px;
+}
+
+.ipubba__table {
+  border-collapse: collapse;
+  
+}

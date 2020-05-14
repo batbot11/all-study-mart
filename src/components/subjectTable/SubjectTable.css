@@ -1,0 +1,40 @@
+.subjecttable__heading {
+  font-size: 24px;
+  text-align: center;
+  color: #FB683A;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.subjecttable__table {
+  margin-left: 5%;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+
+.subjecttable__subject {
+  padding-left: 10px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-top: 10px;
+  font-weight: 500;
+}
+
+.subjecttable__code {
+  color: #008000;
+  font-weight: 600;
+  margin-right: 10px;  
+}
+
+.subjecttable__addtext {
+  color: #F284FE;
+}
+
+
+.subjecttable__view {
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

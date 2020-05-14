@@ -1,0 +1,25 @@
+:root {
+  /* Infobar */
+  /* --infobar-bg-color: #F1F5F8; */
+  --infobar-bg-color: #00BFFF;
+  --infobar-height: 40px;
+
+  /* Logobar */
+  --logobar-height: 100px;
+
+  /* Navbar */
+  /* --navbar-bg-color: #017CBA; */
+  --navbar-bg-color: #00BFFF;
+  --navbar-height: 50px;
+  --navbar-text-color: #fff;
+
+
+  /* Footer block */
+  /* --footer-block-bg-color: #313B48; */
+  --footer-block-bg-color: 	#4682B4;
+}
+
+html, body {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Merriweather', serif;
+}

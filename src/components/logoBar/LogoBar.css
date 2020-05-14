@@ -1,0 +1,46 @@
+.logobar__container {
+  position: fixed;
+  width: 100%;
+  height: var(--logobar-height);
+  display: flex;
+  left: 0;
+  top: var(--infobar-height);
+  background-color: #fff;
+}
+
+.logobar__logo {
+  width: 300px;
+  height: 100px;
+}
+
+.logobar__name--container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logobar__heading--main {
+  display: block;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.logobar__heading--sub {
+  display: block;
+  margin-top: 15px;
+}
+
+.logobar__social--container {
+  position: absolute;
+  top: 20px;
+  right: 3.2%;
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logobar__social--img {
+  width: 30px;
+  height: 30px;
+  /* margin-left: 5%; */
+}

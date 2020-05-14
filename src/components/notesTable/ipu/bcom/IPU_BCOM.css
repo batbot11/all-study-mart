@@ -1,0 +1,8 @@
+.ipubcom__container {
+  margin-top: calc(var(--infobar-height) + var(--logobar-height) + var(--navbar-height));
+}
+
+.ipubcom__heading {
+  font-size: 32px;
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+.navbar__container {
+  position: fixed;
+  width: 100%;
+  height: var(--navbar-height);
+  background-color: var(--navbar-bg-color);
+  top: calc(var(--infobar-height) + var(--logobar-height));
+  display: flex;
+  color: var(--navbar-text-color);
+  justify-content: space-evenly;
+  left: 0;
+}

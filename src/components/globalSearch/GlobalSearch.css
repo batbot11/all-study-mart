@@ -1,0 +1,34 @@
+.globalsearch__container {
+  margin-top: 20vh;
+}
+
+.globalsearch__heading {
+  font-size: 32px;
+  display: block;
+  text-align: center;
+}
+
+.globalsearch__input--container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.globalsearch__input {
+  width: 40%;
+  height: 30px;
+  border: 1px solid lightblue;
+  border-radius: 7px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.globalsearch__btn {
+  background-color: var(--navbar-bg-color);
+  height: 30px;
+  width: 40px;
+  border: 1px solid var(--navbar-bg-color);
+  color: #fff;
+  margin-left: 2%;
+  margin-top: 2px;
+}

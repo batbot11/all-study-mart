@@ -1,0 +1,9 @@
+.heading__container {
+  background-color: #F8FAFC;
+  margin-top: calc(var(--infobar-height) + var(--logobar-height) + var(--navbar-height) + 20px);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 500;
+}

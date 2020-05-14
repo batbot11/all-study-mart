@@ -1,0 +1,40 @@
+.navbaroption__container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbaroption__icon--dropdown {
+  margin-left: 10px;
+}
+
+.navbaroption__expand--container {
+  position: absolute;
+  top: calc(var(--navbar-height) + 0px);
+  display: none;
+  background-color: var(--navbar-bg-color);
+  left: -50px;
+  transition: transform 1s ease;
+  padding-bottom: 1px;
+}
+
+.navbaroption__container:hover .navbaroption__expand--container {
+  display: block;
+  transform: translateY(0);
+}
+
+.navbar__expand--option {
+
+  display: block;
+  height: 30px;
+  width: 180px;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+}
+
+.navbar__expand--option:hover {
+  background-color: #0B567B;
+}

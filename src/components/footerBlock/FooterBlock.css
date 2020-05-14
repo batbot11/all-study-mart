@@ -1,0 +1,36 @@
+.footerblock__container {
+  background-color: var(--footer-block-bg-color);
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.footerblock__list {
+  list-style: none;
+}
+
+.footerblock__heading {
+  font-size: 18px;
+  position: relative;
+}
+
+.footerblock__heading--icon {
+  display: inline-block;
+  width: 4px;
+  height: 20px;
+  background-color: var(--navbar-bg-color);
+  position: absolute;
+  left: -18px;
+}
+
+.footerblock__item {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.footerblock__item--icon {
+  position: absolute;
+  left: -20px;
+  top: 2px;
+}

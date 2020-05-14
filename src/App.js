@@ -19,20 +19,20 @@ import DU_BCOM_HONS from './components/notesTable/du/bcomHons/DU_BCOM_HONS';
 function App() {
   return (
     <div style={{position: 'absolute', left: 0, width: '100%'}} >
-      <BrowserRouter basename ="/all-study-mart" >
+      <BrowserRouter basename ="/all-study-mart/" >
         <Route path="/" exact component={HomePage} />
 
-        <Route path="/ggsipu/bba" component={GGSIPUBBA} />
-        <Route path="/ggsipu/bcom" component={IPU_BCOM} />
-        <Route path="/ggsipu/mba" component={IPU_MBA} />
-        <Route path="/ggsipu/bca" component={IPU_BCA} />
+        <Route exact path="/ggsipu/bba" component={GGSIPUBBA} />
+        <Route exact path="/ggsipu/bcom" component={IPU_BCOM} />
+        <Route exact path="/ggsipu/mba" component={IPU_MBA} />
+        <Route exact path="/ggsipu/bca" component={IPU_BCA} />
 
-        <Route path="/ccsu/bba" component={CCSU_BBA} />
-        <Route path="/ccsu/bcom" component={CCSU_BCOM} />
-        <Route path="/ccsu/bca" component={CCSU_BCA} />
+        <Route exact path="/ccsu/bba" component={CCSU_BBA} />
+        <Route exact path="/ccsu/bcom" component={CCSU_BCOM} />
+        <Route exact path="/ccsu/bca" component={CCSU_BCA} />
 
-        <Route path="/du/bcom" component={DU_BCOM} />
-        <Route path="/du/bcom-hons" component={DU_BCOM_HONS} />
+        <Route exact path="/du/bcom" component={DU_BCOM} />
+        <Route exact path="/du/bcom-hons" component={DU_BCOM_HONS} />
       </BrowserRouter>
     </div>
   );

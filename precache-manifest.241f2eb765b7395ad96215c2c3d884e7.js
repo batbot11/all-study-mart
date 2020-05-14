@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8877c701f4e1f6617f0d9e5dc25e1a2f",
+    "revision": "b7cd02c51ab8237812ef5e8cf8190020",
     "url": "/all-study-mart/index.html"
   },
   {
-    "revision": "1945e44878a4e9ced729",
+    "revision": "70bc1bd0a8a18c4c6516",
     "url": "/all-study-mart/static/css/main.faca4cf8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/all-study-mart/static/js/2.f8b40ac0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1945e44878a4e9ced729",
-    "url": "/all-study-mart/static/js/main.d0e98a67.chunk.js"
+    "revision": "70bc1bd0a8a18c4c6516",
+    "url": "/all-study-mart/static/js/main.7ddcaf9f.chunk.js"
   },
   {
     "revision": "b5cebf7663003b4c7c3e",

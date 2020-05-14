@@ -19,7 +19,7 @@ import DU_BCOM_HONS from './components/notesTable/du/bcomHons/DU_BCOM_HONS';
 function App() {
   return (
     <div style={{position: 'absolute', left: 0, width: '100%'}} >
-      <BrowserRouter>
+      <BrowserRouter basename ="/all-study-mart" >
         <Route path="/" exact component={HomePage} />
 
         <Route path="/ggsipu/bba" component={GGSIPUBBA} />

@@ -15,4 +15,11 @@ table, th, td {
 
 .universities__td--view {
   color: blue;
+  cursor: pointer;
+}
+
+.universities__td--view.disabled {
+  color: grey;
+  cursor: default;
+  pointer-events: none;
 }

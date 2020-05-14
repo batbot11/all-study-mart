@@ -18,7 +18,7 @@ const Universities = () => {
           Select Course
         </td>
       </tr>
-      {uni === "ggsipu" && <Courses uni="ggsipu" />}
+      {uni === "ggsipu" && <Courses uni="ggsipu" disabled="b.tech,m.tech," />}
       <tr>
         <td className="universities__table--td">
           Chaudhary Charan Singh University (CCSU)
@@ -30,7 +30,7 @@ const Universities = () => {
           Select Course
         </td>
       </tr>
-      {uni === "ccsu" && <Courses uni="ccsu" />}
+      {uni === "ccsu" && <Courses uni="ccsu" disabled="b.tech,m.tech,mba," />}
       <tr>
         <td className="universities__table--td">University of Delhi (DU)</td>
         <td
@@ -40,7 +40,7 @@ const Universities = () => {
           Select Course
         </td>
       </tr>
-      {uni === "du" && <Courses uni="du" />}
+      {uni === "du" && <Courses uni="du" disabled="bba,bca,b.tech,mba,m.tech," />}
     </table>
   );
 };

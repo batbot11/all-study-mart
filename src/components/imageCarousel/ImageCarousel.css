@@ -1,0 +1,13 @@
+.imagecarousel__container {
+  margin-top: calc(var(--infobar-height) + var(--logobar-height) + var(--navbar-height) - 10px);
+}
+
+.imagecarousel__carousel {
+  /* width: 50%; */
+}
+
+.imagecarousel__image {
+  /* width: 50%; */
+  /* width: 300px; */
+  height: 400px;
+}

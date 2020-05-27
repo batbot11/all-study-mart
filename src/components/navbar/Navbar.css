@@ -8,4 +8,5 @@
   color: var(--navbar-text-color);
   justify-content: space-evenly;
   left: 0;
+  z-index: 10;
 }

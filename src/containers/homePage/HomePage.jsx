@@ -3,6 +3,7 @@ import InfoBar from '../../components/infoBar/InfoBar';
 import LogoBar from '../../components/logoBar/LogoBar';
 import Navbar from '../../components/navbar/Navbar';
 import Heading from '../../components/heading/Heading';
+import ImageCarousel from '../../components/imageCarousel/ImageCarousel';
 import Universities from '../../components/notesTable/universities/Universities';
 import GlobalSearch from '../../components/globalSearch/GlobalSearch';
 import FooterBlock from '../../components/footerBlock/FooterBlock';
@@ -14,6 +15,7 @@ const HomePage = () => {
       <InfoBar />
       <LogoBar />
       <Navbar />
+      <ImageCarousel />
       {/* <Heading /> */}
       <Universities />
       <GlobalSearch />

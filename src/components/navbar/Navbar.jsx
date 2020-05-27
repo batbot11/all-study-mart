@@ -1,10 +1,9 @@
 import React from "react";
-import { useHistory } from 'react-router-dom';
+import { useHistory } from "react-router-dom";
 import NavbarOption from "../navbarOption/NavbarOption";
 import "./Navbar.css";
 
 const Navbar = () => {
-
   const History = useHistory();
 
   return (
@@ -17,8 +16,12 @@ const Navbar = () => {
           { name: "Mission", onClick: () => console.log("Mission clicked!") },
           { name: "Vision", onClick: () => console.log("Vision clicked!") }
         ]}
+        onClick={() => console.log("about us is clicked!")}
       />
-      <NavbarOption text="Technology" />
+      <NavbarOption
+        text="Technology"
+        onClick={() => console.log("technology is clcked!")}
+      />
       <NavbarOption
         text="UGCNET"
         doesExpand
@@ -26,8 +29,13 @@ const Navbar = () => {
           { name: "Paper I", onClick: () => console.log("paper 1 clicked") },
           { name: "Paper II", onClick: () => console.log("paper 2 clicked") }
         ]}
+        onClick={() => console.log("UGCNET is clicked!")}
       />
-      <NavbarOption text="Contact Us" />
+
+      <NavbarOption
+        text="Contact Us"
+        onClick={() => console.log("contact us is clicked!")}
+      />
     </div>
   );
 };

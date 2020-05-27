@@ -1,9 +1,9 @@
 import React from "react";
 import "./FooterBlock.css";
 
-const FooterBlock = () => {
+const FooterBlock = ({ style }) => {
   return (
-    <div className="footerblock__container">
+    <div style={style} className="footerblock__container">
       <ul className="footerblock__list">
         <span className="footerblock__heading">
           <span className="footerblock__heading--icon" />

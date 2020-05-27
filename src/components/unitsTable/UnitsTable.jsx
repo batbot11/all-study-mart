@@ -37,11 +37,21 @@ const UnitsTable = ({
                   )}
                 </td>
                 <td
-                  className={`subjecttable__view ${subject.disabled ? 'disabled' : ''}`}
+                  className={`subjecttable__view ${
+                    subject.disabled ? "disabled" : ""
+                  }`}
                 >
-                  {(subject.href && subject.href.length > 0) ? <a style={{textDecoration: 'none'}} href={subject.href} download target="_blank" >
-                    <span >VIEW</span>
-                  </a> : <span>VIEW</span>}
+                  {subject.href && subject.href.length > 0 ? (
+                    <a
+                      style={{ textDecoration: "none" }}
+                      href={subject.href}
+                      target="_blank"
+                    >
+                      <span>VIEW</span>
+                    </a>
+                  ) : (
+                    <span>VIEW</span>
+                  )}
                 </td>
               </tr>
             );

@@ -1,11 +1,17 @@
 import React, { useState } from "react";
-import Courses from '../courses/Courses';
+import Courses from "../courses/Courses";
+import DuCoursesTable from "../../duCoursesTable/DuCoursesTable";
 import "./Universities.css";
 
 const Universities = () => {
   const [uni, setUni] = useState("");
 
   return (
+    // <div>
+    //   <span> Guru Gobind Singh Indraprastha University (GGSIPU)</span>
+    //   <span> Chaudhary Charan Singh University (CCSU)</span>
+    //   <span> Delhi University (DU)</span>
+    // </div>
     <table className="universities__table">
       <tr>
         <td className="universities__table--td">
@@ -40,7 +46,7 @@ const Universities = () => {
           Select Course
         </td>
       </tr>
-      {uni === "du" && <Courses uni="du" disabled="bba,bca,b.tech,mba,m.tech," />}
+      {uni === "du" && <DuCoursesTable />}
     </table>
   );
 };

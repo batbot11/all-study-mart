@@ -9,11 +9,11 @@ import UnitsTable from '../../unitsTable/UnitsTable';
 
 const units = [
     {
-      name: "Nature and Scope of Financial Management",
+      name: "Unit-I Nature and Scope of Financial Management",
       href: `${Basename}pdfs/bba/Nature & Scope of Financial Management.pdf`,
     },
     {
-      name: "Planning for Sources of Finance",
+      name: "Unit-II Planning for Sources of Finance",
       href: `${Basename}pdfs/bba/Planning for Sources of Finance.pdf`,
     },
     {

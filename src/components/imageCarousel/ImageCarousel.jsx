@@ -1,13 +1,18 @@
 import React from "react";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import { Carousel } from "react-responsive-carousel";
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Basename from "../../utils/Basename";
 import "./ImageCarousel.css";
 
 const ImageCarousel = () => {
   return (
     <div className="imagecarousel__container">
-      <Carousel infiniteLoop renderThumbs={() => null} autoPlay className="imagecarousel__carousel">
+      <img
+        className="imagecarousel__image"
+        src={`${Basename}images/bba group 1.jpeg`}
+        alt="group1"
+      />
+      {/* <Carousel infiniteLoop renderThumbs={() => null} autoPlay className="imagecarousel__carousel">
         <div>
           <img
             className="imagecarousel__image"
@@ -29,7 +34,7 @@ const ImageCarousel = () => {
             alt="group3"
           />
         </div>
-      </Carousel>
+      </Carousel> */}
     </div>
   );
 };

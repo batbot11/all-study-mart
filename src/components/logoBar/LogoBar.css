@@ -16,7 +16,7 @@
 
 .logobar__name--container {
   position: absolute;
-  left: 40%;
+  left: 35%;
   transform: translateX(-50%);
 }
 
@@ -28,14 +28,17 @@
 
 .logobar__heading--sub {
   display: block;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-left: 11%;
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
 }
 
 .logobar__social--container {
   position: absolute;
   top: 20px;
   right: 3.2%;
-  width: 25%;
+  width: 35%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -48,7 +51,7 @@
 
 .logobar__btn--careers {
   position: absolute;
-  left: 60%;
+  left: 50%;
   top: 20px;
   background-color: #FF0000;
   border: 1px solid #FF0000;

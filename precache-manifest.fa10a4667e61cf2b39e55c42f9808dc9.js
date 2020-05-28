@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4e4242b2f235c43145b0f637643cbf12",
+    "revision": "ec07a14ed8abc0925bcc2d1fef96b1b6",
     "url": "/all-study-mart/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/all-study-mart/static/css/2.afd40c00.chunk.css"
   },
   {
-    "revision": "ffc0edca0c619c4d04e4",
-    "url": "/all-study-mart/static/css/main.61486288.chunk.css"
+    "revision": "aa072f1c2a2a2e184ec7",
+    "url": "/all-study-mart/static/css/main.b0c28bed.chunk.css"
   },
   {
     "revision": "b5bb3236a194893198b7",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/all-study-mart/static/js/2.4524ffed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ffc0edca0c619c4d04e4",
+    "revision": "aa072f1c2a2a2e184ec7",
     "url": "/all-study-mart/static/js/main.ab2569a6.chunk.js"
   },
   {

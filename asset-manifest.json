@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/all-study-mart/static/css/main.61486288.chunk.css",
+    "main.css": "/all-study-mart/static/css/main.b0c28bed.chunk.css",
     "main.js": "/all-study-mart/static/js/main.ab2569a6.chunk.js",
     "main.js.map": "/all-study-mart/static/js/main.ab2569a6.chunk.js.map",
     "runtime-main.js": "/all-study-mart/static/js/runtime-main.f056c5ec.js",
@@ -9,17 +9,17 @@
     "static/js/2.4524ffed.chunk.js": "/all-study-mart/static/js/2.4524ffed.chunk.js",
     "static/js/2.4524ffed.chunk.js.map": "/all-study-mart/static/js/2.4524ffed.chunk.js.map",
     "index.html": "/all-study-mart/index.html",
-    "precache-manifest.3aa258a26320bb51cc0f3358fcb24ef5.js": "/all-study-mart/precache-manifest.3aa258a26320bb51cc0f3358fcb24ef5.js",
+    "precache-manifest.fa10a4667e61cf2b39e55c42f9808dc9.js": "/all-study-mart/precache-manifest.fa10a4667e61cf2b39e55c42f9808dc9.js",
     "service-worker.js": "/all-study-mart/service-worker.js",
     "static/css/2.afd40c00.chunk.css.map": "/all-study-mart/static/css/2.afd40c00.chunk.css.map",
-    "static/css/main.61486288.chunk.css.map": "/all-study-mart/static/css/main.61486288.chunk.css.map",
+    "static/css/main.b0c28bed.chunk.css.map": "/all-study-mart/static/css/main.b0c28bed.chunk.css.map",
     "static/js/2.4524ffed.chunk.js.LICENSE.txt": "/all-study-mart/static/js/2.4524ffed.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f056c5ec.js",
     "static/css/2.afd40c00.chunk.css",
     "static/js/2.4524ffed.chunk.js",
-    "static/css/main.61486288.chunk.css",
+    "static/css/main.b0c28bed.chunk.css",
     "static/js/main.ab2569a6.chunk.js"
   ]
 }
